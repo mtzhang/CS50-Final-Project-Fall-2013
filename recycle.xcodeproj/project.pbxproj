@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF0EAD291854954B00987B70 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF0EAD281854954B00987B70 /* photo.png */; };
 		BFBC76E6185044A900BC83BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBC76E5185044A900BC83BD /* Foundation.framework */; };
 		BFBC76E8185044A900BC83BD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBC76E7185044A900BC83BD /* CoreGraphics.framework */; };
 		BFBC76EA185044A900BC83BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBC76E9185044A900BC83BD /* UIKit.framework */; };
@@ -22,6 +23,17 @@
 		BFBC770A185044AA00BC83BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBC76E9185044A900BC83BD /* UIKit.framework */; };
 		BFBC7712185044AA00BC83BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFBC7710185044AA00BC83BD /* InfoPlist.strings */; };
 		BFBC7714185044AA00BC83BD /* recycleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBC7713185044AA00BC83BD /* recycleTests.m */; };
+		BFBC7ADB18505B0B00410C7F /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBC7ADA18505B0B00410C7F /* Parse.framework */; };
+		BFBC7ADE18505BAD00410C7F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBC7ADC18505BAD00410C7F /* AudioToolbox.framework */; };
+		BFBC7ADF18505BAD00410C7F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBC7ADD18505BAD00410C7F /* CFNetwork.framework */; };
+		BFBC7AE118505BC700410C7F /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBC7AE018505BC700410C7F /* libz.1.1.3.dylib */; };
+		BFBC7AE718505BDB00410C7F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBC7AE218505BDB00410C7F /* MobileCoreServices.framework */; };
+		BFBC7AE818505BDB00410C7F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBC7AE318505BDB00410C7F /* QuartzCore.framework */; };
+		BFBC7AE918505BDB00410C7F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBC7AE418505BDB00410C7F /* Security.framework */; };
+		BFBC7AEB18505BDB00410C7F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBC7AE618505BDB00410C7F /* SystemConfiguration.framework */; };
+		BFBC7AED18505BF000410C7F /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBC7AEC18505BF000410C7F /* StoreKit.framework */; };
+		BFBC7AF0185132DD00410C7F /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBC7AEF185132DD00410C7F /* ResultViewController.m */; };
+		BFE175581854DA3E0053A331 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE175571854DA3D0053A331 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF0EAD281854954B00987B70 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 		BFBC76E2185044A900BC83BD /* recycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = recycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBC76E5185044A900BC83BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BFBC76E7185044A900BC83BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +68,19 @@
 		BFBC770F185044AA00BC83BD /* recycleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "recycleTests-Info.plist"; sourceTree = "<group>"; };
 		BFBC7711185044AA00BC83BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BFBC7713185044AA00BC83BD /* recycleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = recycleTests.m; sourceTree = "<group>"; };
+		BFBC7ADA18505B0B00410C7F /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		BFBC7ADC18505BAD00410C7F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BFBC7ADD18505BAD00410C7F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BFBC7AE018505BC700410C7F /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		BFBC7AE218505BDB00410C7F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BFBC7AE318505BDB00410C7F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BFBC7AE418505BDB00410C7F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BFBC7AE518505BDB00410C7F /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		BFBC7AE618505BDB00410C7F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BFBC7AEC18505BF000410C7F /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BFBC7AEE185132DD00410C7F /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		BFBC7AEF185132DD00410C7F /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		BFE175571854DA3D0053A331 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +88,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFE175581854DA3E0053A331 /* MessageUI.framework in Frameworks */,
+				BFBC7AED18505BF000410C7F /* StoreKit.framework in Frameworks */,
+				BFBC7AE718505BDB00410C7F /* MobileCoreServices.framework in Frameworks */,
+				BFBC7AE818505BDB00410C7F /* QuartzCore.framework in Frameworks */,
+				BFBC7AE918505BDB00410C7F /* Security.framework in Frameworks */,
+				BFBC7AEB18505BDB00410C7F /* SystemConfiguration.framework in Frameworks */,
+				BFBC7AE118505BC700410C7F /* libz.1.1.3.dylib in Frameworks */,
+				BFBC7ADE18505BAD00410C7F /* AudioToolbox.framework in Frameworks */,
+				BFBC7ADF18505BAD00410C7F /* CFNetwork.framework in Frameworks */,
 				BFBC76E8185044A900BC83BD /* CoreGraphics.framework in Frameworks */,
 				BFBC76EA185044A900BC83BD /* UIKit.framework in Frameworks */,
+				BFBC7ADB18505B0B00410C7F /* Parse.framework in Frameworks */,
 				BFBC76E6185044A900BC83BD /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +139,17 @@
 		BFBC76E4185044A900BC83BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFE175571854DA3D0053A331 /* MessageUI.framework */,
+				BFBC7AEC18505BF000410C7F /* StoreKit.framework */,
+				BFBC7AE218505BDB00410C7F /* MobileCoreServices.framework */,
+				BFBC7AE318505BDB00410C7F /* QuartzCore.framework */,
+				BFBC7AE418505BDB00410C7F /* Security.framework */,
+				BFBC7AE518505BDB00410C7F /* SpriteKit.framework */,
+				BFBC7AE618505BDB00410C7F /* SystemConfiguration.framework */,
+				BFBC7AE018505BC700410C7F /* libz.1.1.3.dylib */,
+				BFBC7ADC18505BAD00410C7F /* AudioToolbox.framework */,
+				BFBC7ADD18505BAD00410C7F /* CFNetwork.framework */,
+				BFBC7ADA18505B0B00410C7F /* Parse.framework */,
 				BFBC76E5185044A900BC83BD /* Foundation.framework */,
 				BFBC76E7185044A900BC83BD /* CoreGraphics.framework */,
 				BFBC76E9185044A900BC83BD /* UIKit.framework */,
@@ -122,6 +169,8 @@
 				BFBC76FE185044A900BC83BD /* ViewController.m */,
 				BFBC7700185044A900BC83BD /* Images.xcassets */,
 				BFBC76EC185044A900BC83BD /* Supporting Files */,
+				BFBC7AEE185132DD00410C7F /* ResultViewController.h */,
+				BFBC7AEF185132DD00410C7F /* ResultViewController.m */,
 			);
 			path = recycle;
 			sourceTree = "<group>";
@@ -129,6 +178,7 @@
 		BFBC76EC185044A900BC83BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BF0EAD281854954B00987B70 /* photo.png */,
 				BFBC76ED185044A900BC83BD /* recycle-Info.plist */,
 				BFBC76EE185044A900BC83BD /* InfoPlist.strings */,
 				BFBC76F1185044A900BC83BD /* main.m */,
@@ -233,6 +283,7 @@
 			files = (
 				BFBC76FC185044A900BC83BD /* Main_iPad.storyboard in Resources */,
 				BFBC7701185044A900BC83BD /* Images.xcassets in Resources */,
+				BF0EAD291854954B00987B70 /* photo.png in Resources */,
 				BFBC76F9185044A900BC83BD /* Main_iPhone.storyboard in Resources */,
 				BFBC76F0185044A900BC83BD /* InfoPlist.strings in Resources */,
 			);
@@ -256,6 +307,7 @@
 				BFBC76FF185044A900BC83BD /* ViewController.m in Sources */,
 				BFBC76F6185044A900BC83BD /* AppDelegate.m in Sources */,
 				BFBC76F2185044A900BC83BD /* main.m in Sources */,
+				BFBC7AF0185132DD00410C7F /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +444,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/zhame/Documents/Dropbox/CS50\\ -\\ RECYCLE!/recycle",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "recycle/recycle-Prefix.pch";
 				INFOPLIST_FILE = "recycle/recycle-Info.plist";
@@ -405,6 +461,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/zhame/Documents/Dropbox/CS50\\ -\\ RECYCLE!/recycle",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "recycle/recycle-Prefix.pch";
 				INFOPLIST_FILE = "recycle/recycle-Info.plist";
@@ -474,6 +534,7 @@
 				BFBC7719185044AA00BC83BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFBC771A185044AA00BC83BD /* Build configuration list for PBXNativeTarget "recycleTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +543,7 @@
 				BFBC771C185044AA00BC83BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
